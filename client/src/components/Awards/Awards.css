@@ -1,0 +1,59 @@
+/* Award Container Styles */
+.award-container {
+    padding: 40px 0;
+    background-color: #3498db;
+    text-align: center;
+  }
+  
+  /* Award Heading Styles */
+  .award-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: orange;
+  }
+  
+  /* Award List Styles */
+  .award-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Award Styles */
+  .award {
+    flex: 1;
+    max-width: 250px;
+    padding: 20px;
+    background-color: yellowgreen;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+  }
+  
+  .award-image {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .award-description {
+    font-size: 16px;
+    color: whitesmoke;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .award-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+
+    }
+  
+    .award {
+      margin-bottom: 20px;
+    }
+  }
+  

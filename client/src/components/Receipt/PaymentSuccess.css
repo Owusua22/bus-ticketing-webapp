@@ -1,0 +1,62 @@
+/* Updated styles for the blue background and receipt container */
+.payment-confirmation {
+  background-image: url("../../assets/blue.jpg"); /* Blue background color */
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh; /* Ensure the background color covers the entire screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-title {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: -10px;
+  color: orange;
+}
+.down{
+  display: flex;
+  gap: 1rem;
+}
+.receipt {
+  background-color: white; /* White background color for the receipt container */
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.receipt div {
+  margin-bottom: 10px;
+}
+
+/* Print Button */
+.print-button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+  .payment-confirmation {
+    padding: 10px;
+  }
+
+  .receipt {
+    font-size: 0.9em;
+    line-height: 30px;
+  }
+}

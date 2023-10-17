@@ -1,0 +1,61 @@
+/* CSS for Mobile Responsiveness */
+.login {
+  width: 350px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.login-bg{
+  background-image: url("../../assets/blue.jpg"); /* Blue background color */
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  
+  min-height: 100vh; 
+}
+
+
+/* Social Media Icons */
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.social-icons .icon:hover {
+  color: #007acc; /* Change the color on hover */
+}
+
+/* Google Icon */
+.google-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.google-icon .icon {
+  margin-right: 10px;
+  color: #dd4b39; /* Google's red color */
+}
+
+.google-icon span {
+  font-weight: bold;
+  color: #dd4b39; /* Google's red color */
+}
+
+@media (max-width: 768px) {
+  .login {
+    
+    width: 90%; /* Adjust the width for smaller screens */
+
+  }
+
+}

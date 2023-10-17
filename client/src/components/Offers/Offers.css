@@ -1,0 +1,47 @@
+/* Offer Container Styles */
+.offer-container {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Offer Box Styles */
+.offer-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.offer-box h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.offer-box p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .offer-container {
+    padding: 20px 0;
+  }
+
+  .offer-box {
+    margin: 10px 0;
+  }
+
+  .offer-box h3 {
+    font-size: 20px;
+  }
+
+  .offer-box p {
+    font-size: 14px;
+  }
+}

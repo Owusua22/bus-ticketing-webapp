@@ -1,0 +1,86 @@
+/* Navbar.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed; /* Add this line to make it stick at the top */
+  width: 100%; /* Make it full-width */
+  top: 0; /* Stick it at the top */
+  z-index: 10; /* Set a high z-index to keep it on top */
+}
+.navbar-links ul li a.active {
+  /* Define your active link styles here */
+  color: #f39c12; /* Change the text color to highlight the active link */
+  font-weight: bold; /* Make the text bold for the active link */
+  /* You can add more styles as needed */
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #ff5722;
+}
+
+.navbar-mobile-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-mobile-icon {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .navbar-links.active {
+    display: block;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center; /* Center the items in mobile view */
+  }
+}

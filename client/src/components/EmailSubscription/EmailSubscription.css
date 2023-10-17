@@ -1,0 +1,62 @@
+/* Subscription Container Styles */
+.subscription-container {
+    padding: 40px;
+    background-color: #3498db;
+    text-align: center;
+  }
+  
+  /* Subscription Heading Styles */
+  .subscription-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+  
+  /* Subscription Success Message Styles */
+  .subscription-success {
+    font-size: 18px;
+    color: white;
+  }
+  
+  /* Subscription Form Styles */
+  .subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Subscription Input Styles */
+  .subscription-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    margin-right: 10px;
+    width: 350px;
+  }
+
+  
+  /* Subscription Button Styles */
+  .subscription-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .subscription-form {
+      flex-direction: column;
+    }
+  
+    .subscription-form input {
+      margin-bottom: 10px;
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+  

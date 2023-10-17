@@ -1,0 +1,56 @@
+/* Hero Container Styles */
+.hero-container {
+    
+    padding: 60px 0;
+    color: black;
+  }
+  
+  /* Highlight Text Styles */
+  .highlight-text {
+    color: #f39c12;
+  }
+  
+  /* Catch Phrase Styles */
+  .catch-phrase {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  /* Counter Styles */
+  .counter {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .counter p {
+    font-size: 18px;
+  }
+  
+  /* Image Styles */
+  img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .hero-container {
+      padding: 40px 0;
+    }
+  
+    .catch-phrase {
+      font-size: 20px;
+    }
+  
+    .counter {
+      margin: 10px 0;
+    }
+  
+    .counter p {
+      font-size: 16px;
+    }
+  }
+  
